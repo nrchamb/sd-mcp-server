@@ -237,7 +237,7 @@ The project includes a comprehensive GUI testing tool (`gui_tester.py`) for deve
 ![alt text](https://github.com/nrchamb/sd-mcp-server/blob/main/assets/DebugTools_Nudenet.png "Nudenet Testing")
   
 - **Chevereto Upload Testing** - Guest and personal API testing
-![alt text]( "Upload Testing")
+![alt text](https://github.com/nrchamb/sd-mcp-server/blob/main/assets/DebugTools_UploadTesting.png "Upload Testing")
   
 - **MCP Tools Testing** - Direct tool execution and parameter validation
 ![alt text](https://github.com/nrchamb/sd-mcp-server/blob/main/assets/DebugTools_SystemStatus.png "MCP Tool Testing")
