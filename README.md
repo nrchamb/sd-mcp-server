@@ -12,7 +12,7 @@ A comprehensive **Model Context Protocol (MCP)** server that integrates **Stable
 
 > I could have created a separate configuration file for everything and I may go back and rework how the information is populated. However, the intention was for the MCP.json to be the source or all configurable information to prevent you from having to hunt it down.
 
-> There is a GUI-Based Testing Tool that will let you test and of the main functions and connections. Open the target folder and launch start_gui_tester.py. If you have issues, run the .bat or .sh files to launch into the appropriate environment.
+> There is a GUI-Based Testing Tool that will let you test any of the main functions and connections. Open the target folder and launch start_gui_tester.py. If you have issues, run the .bat or .sh files to launch into the appropriate environment.
 
 > This was tested on Gemma3-8B. The tools take up about 900-1000 tokens in the LLM's memory. It's light enough that you can still generate and get results with a 4096 token context window.
 
