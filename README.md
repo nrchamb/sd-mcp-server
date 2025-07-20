@@ -240,7 +240,7 @@ The project includes a comprehensive GUI testing tool (`gui_tester.py`) for deve
 ![alt text](https://github.com/nrchamb/sd-mcp-server/blob/main/assets/DebugTools_UploadTesting.png "Upload Testing")
   
 - **MCP Tools Testing** - Direct tool execution and parameter validation
-![alt text](https://github.com/nrchamb/sd-mcp-server/blob/main/assets/DebugTools_SystemStatus.png "MCP Tool Testing")
+![alt text](https://github.com/nrchamb/sd-mcp-server/blob/main/assets/DebugTools_MCPTools.png "MCP Tool Testing")
   
 
 
