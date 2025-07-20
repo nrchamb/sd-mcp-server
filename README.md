@@ -2,6 +2,20 @@
 
 A comprehensive **Model Context Protocol (MCP)** server that integrates **Stable Diffusion**, **LLM conversation management**, and **Discord bot functionality**. This project enables AI assistants to generate images, manage conversations with personality switching, and provide intelligent content moderation.
 
+**NOTE**: 
+
+> All features have been run through a slew of programic tests to confirm functionality and then again with limited data. If you experience any problems, raise an issue.
+
+> The intention of the Content Classification is to recognize new words, classify them and relate them to other prompts or models used in similar generations. It is rudimentary at the moment, but there is the intention to grow it.
+
+> There are 'Stubs' for other LLM Providers. LM Studio is the intended target, but if you visit the /modeules/llm/ folder, you will find files that have minimum setup to connect, but no function. Just add your API key to the MCP.json and build out your tools.
+
+> I could have created a separate configuration file for everything and I may go back and rework how the information is populated. However, the intention was for the MCP.json to be the source or all configurable information to prevent you from having to hunt it down.
+
+> There is a GUI-Based Testing Tool that will let you test and of the main functions and connections. Open the target folder and launch gui_tester.py. If you have issues, run the .bat or .sh files to launch into the appropriate environment.
+
+> This was tested on Gemma3-8B. The tools take up about 900-1000 tokens in the LLM's memory. It's light enough that you can still generate and get results with a 4096 token context window.
+
 ## ✨ Features
 
 ### 🎨 **Stable Diffusion Integration**
