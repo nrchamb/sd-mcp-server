@@ -183,7 +183,8 @@ class SDDiscordBot(commands.Bot):
             # Import MCP functions directly
             from scripts.mcp_servers.sd_mcp_server import (
                 generate_image, get_models, load_checkpoint, get_current_model,
-                search_loras, get_queue_status, upload_image, start_guided_generation
+                search_loras, get_queue_status, upload_image, start_guided_generation,
+                analyze_prompt
             )
             
             # Map tool names to functions
@@ -195,7 +196,8 @@ class SDDiscordBot(commands.Bot):
                 "search_loras": search_loras,
                 "get_queue_status": get_queue_status,
                 "upload_image": upload_image,
-                "start_guided_generation": start_guided_generation
+                "start_guided_generation": start_guided_generation,
+                "analyze_prompt": analyze_prompt
             }
             
             if tool_name not in tool_functions:
