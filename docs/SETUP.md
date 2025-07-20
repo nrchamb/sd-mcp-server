@@ -12,6 +12,7 @@
 1. Automatic1111's SD Web UI
 2. LM Studio
 
+```
 {
   "mcpServers": {
     "SD_MCP_Server": {
@@ -30,9 +31,10 @@
     }
   }
 }
+```
 
 ### Complete MCP Example
-
+```
 {
   "mcpServers": {
     "SD_MCP_Server": {
@@ -97,7 +99,7 @@
     }
   }
 }
-
+```
 ## Installation Steps
 
 ### 1. Clone and Setup Project
