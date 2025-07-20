@@ -8,13 +8,15 @@ A comprehensive **Model Context Protocol (MCP)** server that integrates **Stable
 
 > The intention of the Content Classification is to recognize new words, classify them and relate them to other prompts or models used in similar generations. It is rudimentary at the moment, but there is the intention to grow it.
 
-> There are 'Stubs' for other LLM Providers. LM Studio is the intended target, but if you visit the /modeules/llm/ folder, you will find files that have minimum setup to connect, but no function. Just add your API key to the MCP.json and build out your tools.
+> There are 'Stubs' for other LLM Providers. LM Studio is the intended target, but if you visit the [/modeules/llm/](https://github.com/nrchamb/sd-mcp-server/tree/main/modules/llm) folder, you will find files that have minimum setup to connect, but no function. Just add your API key to the MCP.json and build out your tools. View [docs/DVELOPER.md](https://github.com/nrchamb/sd-mcp-server/blob/main/docs/DEVELOPER.md) for more information.
 
 > I could have created a separate configuration file for everything and I may go back and rework how the information is populated. However, the intention was for the MCP.json to be the source or all configurable information to prevent you from having to hunt it down.
 
-> There is a GUI-Based Testing Tool that will let you test and of the main functions and connections. Open the target folder and launch gui_tester.py. If you have issues, run the .bat or .sh files to launch into the appropriate environment.
+> There is a GUI-Based Testing Tool that will let you test and of the main functions and connections. Open the target folder and launch start_gui_tester.py. If you have issues, run the .bat or .sh files to launch into the appropriate environment.
 
 > This was tested on Gemma3-8B. The tools take up about 900-1000 tokens in the LLM's memory. It's light enough that you can still generate and get results with a 4096 token context window.
+
+> If you have issues with the initial launch due to missing database files, open the GUI Testing Tool and generate the databases from the System Status tab.
 
 ## ✨ Features
 
