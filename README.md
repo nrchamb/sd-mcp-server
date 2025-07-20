@@ -328,13 +328,11 @@ The GUI provides:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
 - **Automatic1111** - Stable Diffusion WebUI
+- **Nudenet Censor** - Keeping your screens boobie-free
 - **LM Studio** - Local LLM hosting
 - **Chevereto** - Image hosting platform
 - **Discord.py** - Discord bot framework
