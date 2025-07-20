@@ -32,12 +32,16 @@ A comprehensive **Model Context Protocol (MCP)** server that integrates **Stable
 
 ### Prerequisites
 - **Python 3.12+** with `uv` package manager
-[- **Stable Diffusion WebUI** running locally](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-[- **LM Studio** for LLM functionality](https://lmstudio.ai/)
 
-[- **Discord bot token** (optional, for Discord integration)](https://discord.com/developers/applications)
-[- **Nudenet Censor** - SD Web UI Extension (Optional, for image censoring)](https://github.com/w-e-w/sd-webui-nudenet-nsfw-censor)
-[- **Cheverto** (Optional, Local Image Hosting)](https://chevereto.com/)
+- [**Stable Diffusion WebUI** running locally](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+
+- [**LM Studio** for LLM functionality](https://lmstudio.ai/)
+
+- [**Discord bot token** (optional, for Discord integration)](https://discord.com/developers/applications)
+
+- [**Nudenet Censor** - SD Web UI Extension (Optional, for image censoring)](https://github.com/w-e-w/sd-webui-nudenet-nsfw-censor)
+
+- [**Cheverto** (Optional, Local Image Hosting)](https://chevereto.com/)
 
 
 ### Installation
