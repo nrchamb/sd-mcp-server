@@ -40,7 +40,7 @@ A comprehensive **Model Context Protocol (MCP)** server that integrates **Stable
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/sd-mcp-server.git
+   git clone https://github.com/nrchamb/sd-mcp-server.git
    cd sd-mcp-server
    ```
 
