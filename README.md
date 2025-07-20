@@ -32,9 +32,13 @@ A comprehensive **Model Context Protocol (MCP)** server that integrates **Stable
 
 ### Prerequisites
 - **Python 3.12+** with `uv` package manager
-- **Stable Diffusion WebUI** running locally
-- **LM Studio** for LLM functionality
-- **Discord bot token** (optional, for Discord integration)
+[- **Stable Diffusion WebUI** running locally](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+[- **LM Studio** for LLM functionality](https://lmstudio.ai/)
+
+[- **Discord bot token** (optional, for Discord integration)](https://discord.com/developers/applications)
+[- **Nudenet Censor** - SD Web UI Extension (Optional, for image censoring)](https://github.com/w-e-w/sd-webui-nudenet-nsfw-censor)
+[- **Cheverto** (Optional, Local Image Hosting)](https://chevereto.com/)
+
 
 ### Installation
 
@@ -205,11 +209,20 @@ The project includes a comprehensive GUI testing tool (`gui_tester.py`) for deve
 
 **Features:**
 - **System Status Dashboard** - Real-time component monitoring
+- **Database Management** - LoRA and conversation database tools
+![alt text](https://github.com/nrchamb/sd-mcp-server/blob/main/assets/DebugTools_SystemStatus.png "System Status")
+
 - **SD WebUI Testing** - Image generation with progress tracking
 - **NudeNet Testing** - NSFW filtering with before/after comparison
+![alt text](https://github.com/nrchamb/sd-mcp-server/blob/main/assets/DebugTools_Nudenet.png "Nudenet Testing")
+  
 - **Chevereto Upload Testing** - Guest and personal API testing
+![alt text]( "Upload Testing")
+  
 - **MCP Tools Testing** - Direct tool execution and parameter validation
-- **Database Management** - LoRA and conversation database tools
+![alt text](https://github.com/nrchamb/sd-mcp-server/blob/main/assets/DebugTools_SystemStatus.png "MCP Tool Testing")
+  
+
 
 **Usage:**
 ```bash
